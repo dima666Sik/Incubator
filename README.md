@@ -34,10 +34,13 @@ In this project, I used components such as:<br>
 ## Launch guide
 To run this project you will need to Arduino Uno R3 and other components specified in paragraph [Components](#Components).
  
-## Program testing
+## Schemes project
 ### Fritzing scheme
 ![Fritzing scheme](img/Incubator_sheme_fritzing.png)
 ### Proteus scheme
 ![Proteus scheme](img/Incubator_sheme_proteus.png)
+
+## Program testing
+
 
 
