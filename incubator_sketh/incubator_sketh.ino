@@ -67,7 +67,7 @@ void setup() {
 }
 
 void loop() {
-    if(millis() - timer_start_sensor > (unsigned long)1000){ // sensors will update their values every second 5*60*1000
+    if(millis() - timer_start_sensor > (unsigned long)5*60*1000){ // sensors will update their values every second 5*60*1000
       //Read data and store it to variables hum and temp
       hum = dht.readHumidity();
       temp = dht.readTemperature();
@@ -97,7 +97,7 @@ void loop() {
       Serial.println(timer_start_warm); 
 
     if(flag_temp){
-      if(millis() - timer_start_warm < (unsigned long)16*1000){ // chamber heating for 5 hours at 38 degrees -> 5*60*60*1000
+      if(millis() - timer_start_warm < (unsigned long)5*60*60*1000){ // chamber heating for 5 hours at 38 degrees -> 5*60*60*1000
           Serial.println("Time to bang bang! 5 hours");
           bang_bang(TEMP_MAX_MAX);
       }else {
@@ -107,7 +107,7 @@ void loop() {
         Serial.println(flag_temp); 
       }
     }else{
-       if(millis() - timer_start_warm < (unsigned long)14*1000){ // chamber heating for 30 minutes at 28 degrees -> 30*60*1000
+       if(millis() - timer_start_warm < (unsigned long)30*60*1000){ // chamber heating for 30 minutes at 28 degrees -> 30*60*1000
           Serial.println("Time to bang bang! 30 min");
           bang_bang(TEMP_MIN_MAX);
       }else {
@@ -129,7 +129,7 @@ void loop() {
       if(!(inches-tempValueInches>=INTERFERANCE_MAX_LOW && inches-tempValueInches<=INTERFERANCE_MAX_HIGH)){
         if(inches-tempValueInches!=0 || cm-tempValueCm!=0){ // if we find move in incubator activate buzzer
           tone (BUZZER_PIN, 1000); // turn on buzzer on 1000 Гц
-          delay(1000); //60*1000
+          delay(60*1000); //60*1000
           noTone(BUZZER_PIN); // turn off buzzer
         }
       }
