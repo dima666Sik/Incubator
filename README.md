@@ -32,7 +32,7 @@ In this project, I used components such as:<br>
 <br>☑️ In the event of a signal from the motion sensor (chicken hatching), give a sound signal for 1 minute with a frequency of 1 kHz.
 
 ## Launch guide
-To run this project you will need to Arduino Uno R3 and other components specified in paragraph Preview.
+To run this project you will need to Arduino Uno R3 and other components specified in paragraph [Components](#Components).
  
 ## Program testing
 ### Fritzing scheme
