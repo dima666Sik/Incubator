@@ -41,6 +41,6 @@ To run this project you will need to Arduino Uno R3 and other components specifi
 ![Proteus scheme](img/Incubator_sheme_proteus.png)
 
 ## Program testing
-
+![Testing program](img/testing_project.gif)
 
 
