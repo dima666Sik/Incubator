@@ -1,4 +1,8 @@
 # Microprocessor control system of the incubator
+![shield stars](https://img.shields.io/github/stars/dima666Sik/Incubator?color=orange&label=Stars&style=plastic)
+![languages in repo](https://img.shields.io/github/languages/top/dima666Sik/Incubator?style=flat-square)
+![pull requests](https://img.shields.io/github/issues-pr/dima666Sik/Incubator?style=plastic)
+![Forks](https://img.shields.io/github/forks/dima666Sik/Incubator?style=social)
 
 ## About
 Is an arduino controlled incubator for chicken's eggs. 
