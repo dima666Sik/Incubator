@@ -4,6 +4,9 @@
 ![pull requests](https://img.shields.io/github/issues-pr/dima666Sik/Incubator?style=plastic)
 ![Forks](https://img.shields.io/github/forks/dima666Sik/Incubator?style=social)
 
+## Program testing
+![Testing program](img/testing_project.gif)
+
 ## About
 Is an arduino controlled incubator for chicken's eggs. 
 <br>It's purpose is to keep temperature and humidity at defined values, so that the eggs are incubated and the chicks finally hatch after some days.
@@ -44,7 +47,5 @@ To run this project you will need to Arduino Uno R3 and other components specifi
 ### Proteus scheme
 ![Proteus scheme](img/Incubator_sheme_proteus.png)
 
-## Program testing
-![Testing program](img/testing_project.gif)
 
 
